@@ -47,6 +47,10 @@ func main()  {
 	fmt.Println("长度为4的数组并且有4个值的arr", arr2)
 	fmt.Println("长度为4的空数组arr", arr3)
 
+	mp := make(map[string]int, 5)
+	fmt.Println(mp)
+	ch := make(chan int,5)
+	fmt.Println(ch)
 	/*
 	*	array和slice的区别:
 	*	定义方式不同：arr := [3]int{1,2,3} 或者 arr := [4]int{} 数组必须有固定长度

@@ -5,10 +5,20 @@ import (
 	"strings"
 )
 
+const 	KsepNul               = string(0)
+
 func main()  {
 
 	var s  = "sssss"
 	var d  = "dddd"
+	var ss = string(0)
+	//strSlice := []string{"22","33","44"}
+	fmt.Println(ss, strings.Join([]string{"22","33","44"}, KsepNul), "ing", KsepNul)
+
+
+
+
+
 
 	// 字符串链接 用 +
 	ssdd := s+d
