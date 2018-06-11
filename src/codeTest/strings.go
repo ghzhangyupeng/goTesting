@@ -15,11 +15,6 @@ func main()  {
 	//strSlice := []string{"22","33","44"}
 	fmt.Println(ss, strings.Join([]string{"22","33","44"}, KsepNul), "ing", KsepNul)
 
-
-
-
-
-
 	// 字符串链接 用 +
 	ssdd := s+d
 	fmt.Println(ssdd)
